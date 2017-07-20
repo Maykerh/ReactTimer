@@ -11,15 +11,15 @@ var Nav = () => {
 						{"React Time App"}
 					</li>	
 					<li>
-						<IndexLink to='/timer' 
-							 activeClassName='active' 
+						<IndexLink to='/' 
+							 activeClassName='active-link' 
 							 activeStyle={{fontWeight:'bold'}}>
 							 {"Timer"}
 						</IndexLink>
 					</li>
 					<li>
 						<Link to='/countdown' 
-							 activeClassName='active' 
+							 activeClassName='active-link' 
 							 activeStyle={{fontWeight:'bold'}}>
 							 {"Countdown"}
 						</Link>
